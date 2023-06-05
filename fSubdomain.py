@@ -19,7 +19,7 @@ def get_sub_domains(domain):
     querystring = {"children_only": "true"}
     headers = {
         'accept': "application/json",
-        'apikey': "nwwP9sgqW1kmrD3yiSmIxWdBuDNzlxSV"
+        'apikey': "(put your api key )"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
     result_json = json.loads(response.text)
