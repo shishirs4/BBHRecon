@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = 'f77db97a-bdf4-4195-8142-58e5ae4bd2be'
+API_KEY = 'SET_Your_Api_KEY'
 
 def get_domain_details(domain):
     url = f"https://fullhunt.io/api/v1/domain/{domain}/details"
